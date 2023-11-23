@@ -2,7 +2,7 @@
 
 ## Important ##
 
-Serial doesnt work as in Arduino, comment that lines in the examples.
+Serial doesnt work as in Arduino, comment on these lines in the examples.
 
 ## Description ##
 
