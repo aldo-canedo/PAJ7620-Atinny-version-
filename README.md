@@ -1,4 +1,6 @@
-# Gesture Sensor - PAJ7620 / PAJ7620U2 / PAJ7620F2
+# Gesture Sensor - PAJ7620 / PAJ7620U2 / PAJ7620F2   controlled Via attiny (modified from the original)
+
+
 
 ## Description ##
 
@@ -26,40 +28,6 @@ Breakout boards are also sold under the part number GY-PAJ7620 by various unname
 
 ---
 
-## Installation ##
-
-**Via ArduinoIDE/CLI**
-
-This library is available in the Arduino extended library collection.
-To install:
-- Open ArduinoIDE
-- Select Tools->Manage Libraries...
-- In the search bar input: RevEng PAJ7620
-- Hover over the result and click "install"
-
-**Selecting a release from GitHub**
-
-On the GitHub page (https://github.com/acrandal/RevEng_PAJ7620), there is a "releases" section in the right sidebar.
-You can click on the release version you would like to use, or just "Releases" for the latest one.
-On that page you'll find a "source code" link in various archive formats like tar.gz or zip. Download that and follow the directions in the next section here.
-
-**Manual install from the Git repository**
-
-To download from the repo, choose the branch you want, click the DOWNLOAD ZIP button, rename the uncompressed folder to RevEng_PAJ7620. Check that the RevEng_PAJ7620 folder contains a src directory with RevEng_PAJ7620.cpp and RevEng_PAJ7620.h
-
-Place the RevEng_PAJ7620 library folder into your \<arduinoSketchFolder>/libraries/ folder. You may need to create the libraries subfolder if its your first library. Restart the IDE.
-
-There's a great tutorial on Arduino library installation at: [http://learn.adafruit.com/adafruit-all-about-arduino-libraries-install-use](http://learn.adafruit.com/adafruit-all-about-arduino-libraries-install-use)
-
-**Installing using arduino-cli**
-
-The arduino-cli (command line interface) tool keeps and maintains the same libraries as your ArduinoIDE environment.
-This library can be installed on the terminal with these commands:
-
-- arduino-cli lib update-index  
-- arduino-cli lib install "RevEng PAJ7620"  
-
----
 
 ## Example Sketches Provided ##
 
