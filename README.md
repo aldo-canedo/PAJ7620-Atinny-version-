@@ -1,6 +1,8 @@
 # Gesture Sensor - PAJ7620 / PAJ7620U2 / PAJ7620F2   controlled Via attiny (modified from the original)
 
+## Important ##
 
+Serial doesnt work as in Arduino, comment that lines in the examples.
 
 ## Description ##
 
